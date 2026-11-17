@@ -13,6 +13,7 @@ python3 tools/check_site.py src
 python3 tools/build.py
 python3 -m http.server 8000 --directory dist/site --bind 127.0.0.1
 ```
+Hello
 
 Open http://localhost:8000 and stop with Ctrl+C.
 The local preview is not a production service.
